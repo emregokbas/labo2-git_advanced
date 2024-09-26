@@ -1,0 +1,42 @@
+Atomaire commits zijn best practices
+Duidelijke commit messages gebruiker is ook een best practice.
+Je zet deze altijd in tegenwoordige tijd.(ik werk, slaap, maak.....)
+Zet commit messages in de imperatief.
+
+Commandos
+git rm --> wordt verwijderd en met add kan je dan zegmaar zeggen dat er iets wordt onthouden als er iets wordt verwijderd
+
+git diff (commit id)---> welke regels code zijn er exact toegevoegd of verwijderd
+
+Merge conficts
+Als er (MERGING) staat wordt er verwacht dat je het probleem zelf oplost.
+
+Time Travel
+HEAD --> De actieve commit
+git checkout ---> springen naar een commit
+git reset ((extra opties maken ee ngroot verschil)) --> zal alles ongedaan maken en springen naar een bepaalde plaats in de branch
+git reset --hard ((commit id)) --> niks van de aanpassingen blijft over en bij soft wel((voor herschrijven)
+
+
+git bisect start--> in 2 snijden
+git bisect bad (..)
+git bisect good(...)
+
+.gitignore --->  edit .gitignore en voeg dan in het bestand de naam van het bestand of van de map.
+
+Protected branches
+
+GIT INIT EN CLONE TE SAMEN GEBRUIKEN GAAT NIET.
+IN BEDRIJF NA EDITS VAN FILES IN BRANCES:
+GIT PUSH --set-upstream origin features/faq
+pull request in github
+
+
+Stel je verbeters github code(geen eigenaar va ngit repository) van iemand anders dan moet je gaan forken om deze verbetering terug op github te hebben.
+Contribute -> open pull req
+
+
+
+
+Rebase vs merge
+Altijd je grafiek in de gaten houden
